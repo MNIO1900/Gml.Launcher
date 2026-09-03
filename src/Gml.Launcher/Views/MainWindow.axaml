@@ -24,7 +24,7 @@
         TransparencyLevelHint="AcrylicBlur"
         TransparencyBackgroundFallback="Transparent"
         Icon="/Assets/Images/logo.ico"
-        Title="Gml.Launcher">
+        Title="Fall Order">
 
     <Grid>
         <Border CornerRadius="5" ClipToBounds="True">
@@ -34,7 +34,7 @@
                         <ExperimentalAcrylicMaterial
                             BackgroundSource="Digger"
                             MaterialOpacity="0.85"
-                            TintColor="Black"
+                            TintColor="#9e44e3"
                             TintOpacity=".9" />
                     </ExperimentalAcrylicBorder.Material>
                 </ExperimentalAcrylicBorder>

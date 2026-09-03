@@ -1,4 +1,4 @@
-﻿<Styles xmlns="https://github.com/avaloniaui"
+<Styles xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:controls="using:Gml.Launcher.Views.Components"
         xmlns:lang="clr-namespace:Gml.Launcher.Assets.Resources">
@@ -249,11 +249,11 @@
     </Style>
 
     <Style Selector="controls|GmlButton.Danger /template/ Button /template/ ContentPresenter">
-        <Setter Property="Background" Value="Tomato" />
+        <Setter Property="Background" Value="#b315c2" />
     </Style>
 
     <Style Selector="controls|GmlButton.Danger:pointerover /template/ Button /template/ ContentPresenter">
-        <Setter Property="Background" Value="Tomato" />
+        <Setter Property="Background" Value="#b315c2" />
         <Setter Property="Opacity" Value="0.85"></Setter>
     </Style>
 </Styles>

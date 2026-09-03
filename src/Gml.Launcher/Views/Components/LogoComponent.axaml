@@ -1,4 +1,4 @@
-﻿<Styles xmlns="https://github.com/avaloniaui"
+<Styles xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:controls="using:Gml.Launcher.Views.Components">
     <Design.PreviewWith>
@@ -31,7 +31,7 @@
                     <Svg Path="/Assets/Images/logo.svg"
                          Width="{TemplateBinding Size}"
                          Height="{TemplateBinding Size}" />
-                    <TextBlock Text="GAMERVII"
+                    <TextBlock Text="Fall Order"
                                VerticalAlignment="Center"
                                FontSize="26"
                                FontWeight="Bold"

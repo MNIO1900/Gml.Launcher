@@ -1,4 +1,4 @@
-﻿<UserControl xmlns="https://github.com/avaloniaui"
+<UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -31,7 +31,7 @@
         <Border Grid.Column="1" Padding="25">
 
             <Grid ColumnDefinitions="Auto, 30, *"
-                  RowDefinitions="60, 30, *, 30, Auto">
+                  RowDefinitions="60, 40, *, 10, Auto">
 
                 <components:OnlineComponent
                     Grid.Row="0"
@@ -42,7 +42,7 @@
 
                 <components:ProgressBar Grid.Row="0"
                                         Grid.Column="0"
-                                        Grid.ColumnSpan="3"
+                                        Grid.ColumnSpan="5"
                                         IsVisible="{Binding IsProcessing}"
                                         Headline="{Binding Headline}"
                                         Description="{Binding Description}"
@@ -95,19 +95,11 @@
                       Grid.ColumnSpan="3"
                       ColumnDefinitions="Auto, *, Auto">
 
-                    <components:GmlButton Grid.Column="0"
-                                          IconPath="/Assets/Images/document.svg"
-                                          Command="{Binding OpenLinkCommand}"
-                                          CommandParameter="https://vk.com/recloud.studio"
-                                          IconSize="22"
-                                          Classes="TextIcon Additional"
-                                          Text="{x:Static lang:Resources.ModsList}" />
-
                     <StackPanel Grid.Column="2"
                                 Orientation="Horizontal"
                                 Spacing="10">
 
-                        <components:GmlButton IconPath="/Assets/Images/vk.svg"
+<!--                        <components:GmlButton IconPath="/Assets/Images/vk.svg"
                                               IconSize="24"
                                               Padding="0, 2, 0, 0"
                                               Command="{Binding OpenLinkCommand}"
@@ -122,7 +114,7 @@
                                               Padding="15, 0, 15, 0"
                                               Classes="TextIcon Additional"
                                               Text="{x:Static lang:Resources.Website}" />
-
+-->
                     </StackPanel>
 
                 </Grid>
